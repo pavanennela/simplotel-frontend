@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-items {
+    font-size: 12px;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+
+.container {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #faf8ca, #f5aee4);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    padding: 0px;
+}
+
+.mini-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.container-first-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.image-1 {
+    height: 130px;
+    width: 100px;
+}
+
+@media screen and (min-width:768px) {
+    .image-1 {
+        height: 230px;
+        width: 200px;
+    }
+}
+
+
+.image-2 {
+    height: 130px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+@media screen and (min-width:768px) {
+    .image-2 {
+        height: 230px;
+        width: 200px;
+    }
+}
+
+
+.image-3 {
+    height: 265px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+@media screen and (min-width:768px) {
+    .image-3 {
+        height: 465px;
+        width: 200px;
+    }
+}
+
+
+.container-three {
+    height: 130px;
+    width: 230px;
+    background-color: #f07d92;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.mini-head {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.head {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.icon {
+    height: 10px;
+    width: 15px;
+}
+
+@media screen and (min-width:768px) {
+    .container-three {
+        height: 230px;
+        width: 330px;
+        background-color: #f07d92;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .mini-head {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .head {
+        font-family: Roboto;
+        font-size: 30px;
+    }
+
+    .icon {
+        height: 20px;
+        width: 25px;
+    }
+}
